@@ -86,8 +86,6 @@ p = make_plot(src, feature_select.value)
 
 controls = WidgetBox(feature_select, lokasi_selection)
 
-# Create a row layout
 layout = row(controls, p)
 
-#Adding the layout to the current document
 curdoc().add_root(layout)
